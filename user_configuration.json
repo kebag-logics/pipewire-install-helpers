@@ -4,7 +4,10 @@
         "audio": "pipewire"
     },
     "bootloader": "Systemd-boot",
-    "custom_commands": [],
+    "custom_commands": [
+        "systemctl enable sddm.service",
+        "systemctl enable NetworkManager.service"
+    ],
     "hostname": "pipewire-arch",
     "kernels": [
         "linux"
