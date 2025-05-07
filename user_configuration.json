@@ -1,0 +1,59 @@
+{
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pipewire"
+    },
+    "bootloader": "Systemd-boot",
+    "custom_commands": [],
+    "hostname": "pipewire-arch",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "ntp": true,
+    "packages": [
+       " base",
+       " base-devel",
+       " bash-completion",
+       " btrfs-progs",
+       " clang",
+       " cmake",
+       " dolphin",
+       " efibootmgr",
+       " ethtool",
+       " git",
+       " glib2-devel",
+       " gnome-console",
+       " gnu-netcat",
+       " htop",
+       " less",
+       " linux-firmware",
+       " linux",
+       " ltrace",
+       " meson",
+       " networkmanager",
+       " numactl",
+       " openssh",
+       " openvpn",
+       " plasma-desktop",
+       " qpwgraph",
+       " sddm",
+       " sshfs",
+       " strace",
+       " tmux",
+       " tree",
+       " unzip",
+       " vim",
+       " wireshark-cli",
+       " zram-generator"
+    ],
+    "parallel_downloads": 2,
+    "services": [],
+    "swap": true,
+    "timezone": "UTC",
+    "version": null
+}
